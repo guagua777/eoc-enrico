@@ -1,0 +1,44 @@
+{
+  "functions": [
+    {
+      "args": [],
+      "instrs": [
+        {
+          "label": "start"
+        },
+        {
+          "dest": "tmp.0",
+          "op": "const",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "dest": "tmp.1",
+          "op": "const",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "args": [
+            "tmp.0",
+            "tmp.1"
+          ],
+          "dest": "tmp.2",
+          "funcs": [],
+          "labels": [],
+          "op": "add",
+          "type": "int"
+        },
+        {
+          "args": [
+            "tmp.2"
+          ],
+          "funcs": [],
+          "labels": [],
+          "op": "return"
+        }
+      ],
+      "name": "main"
+    }
+  ]
+}
